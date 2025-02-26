@@ -1,0 +1,235 @@
+/* footer */
+
+
+.footer {
+    background: #2c3e50;
+    color: #ecf0f1;
+    padding-top: 60px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Footer Top */
+.footer-top {
+    padding-bottom: 40px;
+}
+
+/* Logo & About */
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.footer-logo i {
+    font-size: 2.5rem;
+    color: #3498db;
+}
+
+.footer-logo h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #fff;
+}
+
+.footer-about p {
+    color: #bdc3c7;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Section Headers */
+.footer h3 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 25px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.footer h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30px;
+    height: 2px;
+    background: #3498db;
+}
+
+/* Links Section */
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    color: #bdc3c7;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.footer-links a:hover {
+    color: #3498db;
+    transform: translateX(5px);
+}
+
+/* Contact Section */
+.footer-contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-contact li {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 15px;
+    color: #bdc3c7;
+}
+
+.footer-contact i {
+    color: #3498db;
+    margin-top: 5px;
+}
+
+/* Hours Section */
+.footer-hours ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-hours li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    color: #bdc3c7;
+}
+
+.footer-hours .time {
+    color: #3498db;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    background: #243342;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-content p {
+    margin: 0;
+    color: #bdc3c7;
+}
+
+/* Social Links */
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    background: #3498db;
+    transform: translateY(-3px);
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+    .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .col-lg-4 {
+        grid-column: 1 / -1;
+    }
+}
+
+@media (max-width: 768px) {
+    .row {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-top {
+        padding-bottom: 20px;
+    }
+
+    .bottom-content {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .footer h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .footer h3,
+    .footer-links,
+    .footer-contact,
+    .footer-hours {
+        text-align: center;
+    }
+
+    .footer-contact li {
+        justify-content: center;
+    }
+
+    .footer-links a:hover {
+        transform: translateY(-3px);
+    }
+}
+
+/* Hover Effects */
+.footer-logo i {
+    transition: transform 0.3s ease;
+}
+
+.footer-logo:hover i {
+    transform: rotate(15deg);
+}
+
+/* Optional: Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Optional: Selection Color */
+::selection {
+    background: #3498db;
+    color: #fff;
+}

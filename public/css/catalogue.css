@@ -1,0 +1,146 @@
+
+/* book */
+
+.book-card {
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background: white;
+    padding: 15px;
+    display: flex;
+    gap: 16px;
+}
+.book-card img {
+    width: 80px;
+    height: 100px;
+    border-radius: 5px;
+}
+.book-details {
+    flex: 1;
+}
+.book-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+.book-author {
+    color: #7dbb39;
+    font-weight: bold;
+}
+.book-meta {
+    font-size: 14px;
+    color: gray;
+}
+.borrow-btn {
+    background-color: #7dbb39;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: end;
+}
+.book-icons {
+    color: #7dbb39;
+}
+
+
+
+
+
+/* filterrr */
+/* filterrr */
+/* filterrr */
+/* filterrr */
+
+
+.filter-container {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+}
+.toggle-switch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.toggle-switch input {
+    cursor: pointer;
+}
+.filter-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #6cba44;
+}
+.filter-title i {
+    font-size: 24px;
+}
+.btn-apply {
+    background-color: #9cce3b;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.btn-reset {
+    background-color: #6c757d;
+    color: white;
+}
+
+
+
+
+
+/* pagination, */
+/* pagination, */
+/* pagination, */
+/* pagination, */
+/* pagination, */
+
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    /* background-color: #f0f0f0; */
+}
+.pagination {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.pagination a {
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 2px;
+    border-radius: 6px;
+    color: #7cb518;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+}
+.pagination a.active {
+    background-color: #7cb518;
+    color: white;
+}
+.pagination a:hover {
+    background-color: #d4e157;
+    color: white;
+}
+
+
+
+
+
+
+/* recherche id */
+/* recherche id */
+/* recherche id */
+
+#rechrchebat{
+    width: 380%;
+}

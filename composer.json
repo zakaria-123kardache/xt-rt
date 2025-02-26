@@ -1,0 +1,14 @@
+{
+    "name": "youcode/mission",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kardasch Zakaria"
+        }
+    ],
+    "require": {}
+}
