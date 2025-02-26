@@ -11,5 +11,9 @@ class IndexController extends Controller {
     {
         return $this->render("pages.home");
     }
+    public function produit ()
+    {
+        return $this->render("pages.produit");
+    }
     
 }
